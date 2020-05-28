@@ -1755,41 +1755,22 @@ input, select, textarea {
 /* Section/Article */
 
     .myButton {
-        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #28302a), color-stop(1, #3c4a35));
-        background:-moz-linear-gradient(top, #28302a 5%, #3c4a35 100%);
-        background:-webkit-linear-gradient(top, #28302a 5%, #3c4a35 100%);
-        background:-o-linear-gradient(top, #28302a 5%, #3c4a35 100%);
-        background:-ms-linear-gradient(top, #28302a 5%, #3c4a35 100%);
-        background:linear-gradient(to bottom, #28302a 5%, #3c4a35 100%);
-        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#28302a', endColorstr='#3c4a35',GradientType=0);
-        background-color:#28302a;
-        -moz-border-radius:7px;
-        -webkit-border-radius:7px;
-        border-radius:7px;
-        border:1px solid #2b3b2c;
-        display:inline-block;
-        cursor:pointer;
-        color:#ffffff;
+        background-color:#27272B;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
         font-size:14px;
-        padding:9px 48px;
-        text-decoration:none;
-        text-shadow:0px 1px 0px #384d34;
+        padding: 9px 40px;
+        text-decoration: none;
+        border: none;
     }
     .myButton:hover {
-        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #3c4a35), color-stop(1, #28302a));
-        background:-moz-linear-gradient(top, #3c4a35 5%, #28302a 100%);
-        background:-webkit-linear-gradient(top, #3c4a35 5%, #28302a 100%);
-        background:-o-linear-gradient(top, #3c4a35 5%, #28302a 100%);
-        background:-ms-linear-gradient(top, #3c4a35 5%, #28302a 100%);
-        background:linear-gradient(to bottom, #3c4a35 5%, #28302a 100%);
-        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3c4a35', endColorstr='#28302a',GradientType=0);
-        background-color:#3c4a35;
+        background-color:#303036;
     }
-    .myButton:active {
+    /*.myButton:active {
         position:relative;
         top:1px;
-    }
-
+    }*/
 
 	section.special, article.special {
 		text-align: center;
@@ -1848,8 +1829,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: #f7f7f7;
-		border-radius: 0.35em;
+		background: #EAEAEC;
 		border: solid 2px transparent;
 		color: inherit;
 		display: block;
@@ -1872,7 +1852,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #49bf9d;
+			border-color: #303036;
 		}
 
 	select {
@@ -2601,12 +2581,11 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815;
-		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg_4.jpg");
-		background-position: top left,							top left;
-		background-repeat: repeat,								no-repeat;
-		background-size: auto,								150%;
+		background-color: #27272B;
+		background-attachment: scroll;
+		background-position: top left;
+		background-repeat: repeat;
+		background-size: auto, 150%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
